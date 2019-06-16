@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeadPipe.Net.Core.Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadPipe.Net.CommonObjects", "src\LeadPipe.Net.CommonObjects\LeadPipe.Net.CommonObjects.csproj", "{50B6D558-8CBB-465B-9C65-0CD9FC4F5CAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadPipe.Net.CommonObjects.Core.Tests", "src\LeadPipe.Net.CommonObjects.Core.Tests\LeadPipe.Net.CommonObjects.Core.Tests.csproj", "{8E2520F6-2FE0-457A-AB0E-364D1EB4B85D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{50B6D558-8CBB-465B-9C65-0CD9FC4F5CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B6D558-8CBB-465B-9C65-0CD9FC4F5CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B6D558-8CBB-465B-9C65-0CD9FC4F5CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2520F6-2FE0-457A-AB0E-364D1EB4B85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2520F6-2FE0-457A-AB0E-364D1EB4B85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2520F6-2FE0-457A-AB0E-364D1EB4B85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2520F6-2FE0-457A-AB0E-364D1EB4B85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
