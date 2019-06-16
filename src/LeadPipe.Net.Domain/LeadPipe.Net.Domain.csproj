@@ -64,12 +64,6 @@
     <Compile Include="ValueObject.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LeadPipe.Net\LeadPipe.Net.csproj">
-      <Project>{07eaabc8-d86d-4b6b-b153-77ee0e5526a5}</Project>
-      <Name>LeadPipe.Net</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="LeadPipe.Net.Domain.nuspec" />
     <None Include="README.md" />
   </ItemGroup>

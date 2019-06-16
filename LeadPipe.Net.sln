@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadPipe.Net", "src\LeadPipe.Net\LeadPipe.Net.csproj", "{07EAABC8-D86D-4B6B-B153-77EE0E5526A5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadPipe.Net.Tests", "src\LeadPipe.Net.Tests\LeadPipe.Net.Tests.csproj", "{10FEB13F-2FDC-472F-BE87-EDEA8C4595EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{7A8F5386-E4C8-4F0F-9847-C78A7F0F93E8}"
@@ -51,16 +49,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadPipe.Net.Slack", "src\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadPipe.Net.Slack.Tests", "src\LeadPipe.Net.Slack.Tests\LeadPipe.Net.Slack.Tests.csproj", "{FCE0373D-E666-402E-9E5E-8BCCB087263B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadPipe.Net", "src\LeadPipe.Net\LeadPipe.Net.csproj", "{E722E670-E355-4A27-BEDE-0677E4B548CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadPipe.Net.Core.Tests", "src\LeadPipe.Net.Core.Tests\LeadPipe.Net.Core.Tests.csproj", "{5F1F39B9-9DA7-4D3C-92D9-67C9F2AC0404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07EAABC8-D86D-4B6B-B153-77EE0E5526A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07EAABC8-D86D-4B6B-B153-77EE0E5526A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07EAABC8-D86D-4B6B-B153-77EE0E5526A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07EAABC8-D86D-4B6B-B153-77EE0E5526A5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{10FEB13F-2FDC-472F-BE87-EDEA8C4595EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10FEB13F-2FDC-472F-BE87-EDEA8C4595EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10FEB13F-2FDC-472F-BE87-EDEA8C4595EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -137,8 +135,19 @@ Global
 		{FCE0373D-E666-402E-9E5E-8BCCB087263B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE0373D-E666-402E-9E5E-8BCCB087263B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE0373D-E666-402E-9E5E-8BCCB087263B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E722E670-E355-4A27-BEDE-0677E4B548CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E722E670-E355-4A27-BEDE-0677E4B548CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E722E670-E355-4A27-BEDE-0677E4B548CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E722E670-E355-4A27-BEDE-0677E4B548CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1F39B9-9DA7-4D3C-92D9-67C9F2AC0404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1F39B9-9DA7-4D3C-92D9-67C9F2AC0404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1F39B9-9DA7-4D3C-92D9-67C9F2AC0404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1F39B9-9DA7-4D3C-92D9-67C9F2AC0404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3FD86D3-A2B4-4A27-BF04-C0ABF8D1ACA9}
 	EndGlobalSection
 EndGlobal

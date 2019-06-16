@@ -76,10 +76,6 @@
       <Project>{FD1810FF-7864-43B0-B8CA-BD3AD5C2E683}</Project>
       <Name>LeadPipe.Net.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LeadPipe.Net\LeadPipe.Net.csproj">
-      <Project>{07eaabc8-d86d-4b6b-b153-77ee0e5526a5}</Project>
-      <Name>LeadPipe.Net</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />

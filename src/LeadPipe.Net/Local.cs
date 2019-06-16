@@ -3,13 +3,34 @@
 // Licensed under the MIT License. Please see the LICENSE file in the project root for full license information.
 // --------------------------------------------------------------------------------------------------------------------
 
-using System.Web;
+namespace System.Web
+{
+    public static class HttpContext
+    {
+        private static Microsoft.AspNetCore.Http.IHttpContextAccessor m_httpContextAccessor;
 
+
+        public static void Configure(Microsoft.AspNetCore.Http.IHttpContextAccessor httpContextAccessor)
+        {
+            m_httpContextAccessor = httpContextAccessor;
+        }
+
+
+        public static Microsoft.AspNetCore.Http.HttpContext Current
+        {
+            get
+            {
+                return m_httpContextAccessor.HttpContext;
+            }
+        }
+
+    }
+}
 namespace LeadPipe.Net
 {
     using System;
     using System.Collections;
-
+    using System.Web;
     /// <summary>
     /// Provides a thread-safe storage mechanism that works in both HTTP and traditional contexts.
     /// </summary>
@@ -87,7 +108,7 @@ namespace LeadPipe.Net
                         return localData ?? (localData = new Hashtable());
                     }
 
-                    var webHashtable = HttpContext.Current.Items[LocalDataHashtableKey] as Hashtable;
+                    Hashtable webHashtable = HttpContext.Current.Items[LocalDataHashtableKey] as Hashtable;
 
                     if (webHashtable == null)
                     {
